@@ -1,0 +1,309 @@
+/*body*/
+body
+{
+    margin: 0;
+    font-family: sans-serif ;
+    color: #636C72;
+    font-size: 14px;
+    padding-bottom: 30px;
+    overflow-x: hidden
+}
+.overlay{
+    background-color: rgba(0,0,0,0.9);
+    padding: 100px 0px;
+}
+img
+{
+    width: 100%
+}
+/*start navbar*/
+.navbar
+{
+    
+    background: transparent;
+    color: white !important;
+    background-color: transparent;
+    transition: all ease-in-out .3s;
+    opacity: .8
+    
+}
+.nav>li>a:focus
+{
+    background-color: transparent;
+    color: #636C72
+}
+a.navbar-brand
+{
+    width: 20%;
+    height: 20%;
+}
+img#brandlogo
+{
+    width: 30%;
+    height: 30%
+}
+
+.nav a
+{
+    transition: all .5s ease-in-out !important ;
+    color: white !important;
+    
+}
+.nav a:hover
+{
+    border: 0px;
+    background-color: transparent !important;
+    color: #4D658D !important;
+}
+
+/*end navbar*/
+/*start header*/
+div#bgheader
+{
+    background-image: url(../images/header-bg.jpg);
+    background-size: cover;
+    color: white !important;
+    opacity: 1
+}
+div#header
+{
+    background-color: transparent !important;
+    padding: 300px 30px 30px ;
+}
+h1.headingheader
+{
+    font-size: 70px ;
+    font-weight: bold
+}
+p.headingparagraph
+{
+    font-size: 40px
+}
+a#tellme
+{
+    margin-top: 30px;
+    padding: 20px 30px;
+    transition: all .6s ease-in-out;
+    font-size: 30px
+}
+a#tellme:hover
+{
+    background-color:  #4D658D !important;
+}
+/*end header */
+/*start services*/
+div#sevices
+{
+    margin-bottom: 200px
+}
+h1.mainheader
+{
+    color: black;
+    margin-top: 100px
+}
+p.mainparagraph
+{
+    font-size: 22px;
+    margin-bottom: 60px;
+}
+div.roundicon
+{
+    background-color: #615192;
+    border-radius: 50%;
+    padding: 50px;
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+    
+}
+.fa
+{
+    color: white;
+    text-align: center !important;
+    font-size: 50px;
+    display: block;    
+}
+/*end services*/
+/*start portfolio*/
+div.portfolio
+{
+    background-color: #F7F7F7;
+    padding: 30px 0 20px;
+    margin-bottom: 100px;
+}
+div#pcol
+{
+
+    background-color: white;
+    
+}
+h2.pheader
+{
+    color: black;
+}
+/*end services*/
+/* start about*/
+#about row
+{
+    z-index: 1
+}
+.roundimg
+{
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: auto
+}
+.line{
+    height: 0;
+    transform: rotate(-90deg);
+    border-bottom: 3px solid black;
+    margin: 10px auto;
+    width: 30%;
+    z-index: 77;
+    opacity: .3
+}
+.container1{
+    width: 50%;
+    margin: 10px auto
+}
+/*end about*/
+/*start our team*/
+div.ourteam
+{
+    
+    background-color: #F7F7F7
+    
+}
+.teamimg
+{
+    width: 50%;
+    margin-left: 90px
+}
+div.triicon
+{
+    margin-bottom: 80px;
+    margin-top: 50px;
+    margin-left: 90px
+    
+}
+i#tripleicons
+{
+    border-radius: 50%;
+    background-color: #13073A;
+    display: inline;   
+    font-size: 30px;
+    padding: 15px;
+    transition: all .6s ease-in-out;
+    cursor: pointer;
+  
+}
+i#tripleicons:hover
+{
+    background-color: #615192;
+}
+/*end our team*/
+/*start contact*/
+div.contactus
+{
+    background-image:  url(../images/map2.jpg);
+    background-size: cover;
+    margin-top: 150px;
+    margin-bottom: 30px;
+    
+    width: 100%
+}
+h1.contactheader
+{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 30px
+}
+p.contactparagraph
+{
+    color: white;
+    text-align: center;
+    font-size: 20px
+}
+.contactinput
+{
+    display: block;
+    margin: 50px auto;
+    padding: 20px 10px;
+    border-radius: 10px;
+    width: 90%
+}
+.contactmessage
+{
+    margin: 50px auto;
+    padding: 20px 10px;
+    border-radius: 10px;
+    width: 90%;
+    height: 290px
+}
+.contactbutton
+{
+    display: block;
+    margin: 50px auto;
+    font-size: 30px;
+    padding: 15px 10px;
+    background-color: #C833F5;
+    transition: all .6s ease-in-out;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+}
+.contactbutton:hover
+{
+    background-color: #615192
+}
+/*end contact*/
+/*start footer*/
+div.flex5{
+    padding: 30px 40px;
+    display: flex;
+}
+i.fa-copyright
+{
+    color: black;
+    display: inline;
+    font-size: 20px;
+    margin-right: 10px
+}
+div.copyright
+{
+    width: 80%;
+    font-size: 15px;
+    
+    
+}
+span.crspan{
+    font-size: 16px;
+    font-weight: 500;
+    color: #615192
+}
+div.socialmedia
+{
+    float: right;
+    overflow: hidden;
+}
+#socialicon
+{
+    color:#7D7D7D;
+    font-size: 35px;
+    margin: 0px 20px ;
+    opacity: .8;
+    transition: all .5s ease-in-out;
+    display: inline
+}
+#socialicon:hover
+{
+    color: #615192;
+    opacity: 1;
+    text-decoration: none
+}
+a:hover
+{
+    text-decoration: none
+}
